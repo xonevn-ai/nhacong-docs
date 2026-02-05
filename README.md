@@ -1,7 +1,7 @@
 # 🏠 NET Partners - Cẩm nang sử dụng Nhà Cộng
 
 [![Powered by Docusaurus](https://img.shields.io/badge/powered%20by-Docusaurus-green)](https://docusaurus.io/)
-[![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-brightgreen)](https://github.com/xonevn-ai/nhacong-final)
+[![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-brightgreen)](https://github.com/xonevn-ai/nhacong-docs)
 [![Language: Vietnamese](https://img.shields.io/badge/Language-Vietnamese-blue)](https://nhacong.com.vn)
 
 > **Cẩm nang hướng dẫn sử dụng và vận hành hệ thống Nhà Cộng (NET Partners)** - Giải pháp công nghệ hàng đầu trong việc số hóa quản lý bất động sản và kết nối cộng đồng cư dân.
