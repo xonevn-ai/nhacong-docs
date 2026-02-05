@@ -1,0 +1,82 @@
+
+> documentation@0.0.0 build
+> docusaurus build 
+
+[INFO] [vi] Creating an optimized production build...
+[ERROR] Loading of version failed for version current
+
+[ERROR] Error: Unable to build website for locale vi.
+    at tryToBuildLocale (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\commands\build\build.js:83:15)
+    at async e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\commands\build\build.js:35:9
+    at async mapAsyncSequential (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\utils\lib\jsUtils.js:21:24)
+    at async Command.build (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\commands\build\build.js:34:5)
+    at async Promise.all (index 0)
+    at async runCLI (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\commands\cli.js:56:5)
+    at async file:///e:/Nha_Cong/prj/nhacong-final/documentation/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3 {
+  [cause]: Error: Invalid sidebar file at "sidebars.ts".
+  These sidebar document ids do not exist:
+  - customer/billing-support
+  
+  Available document ids are:
+  - agent/appointments/schedule
+  - agent/commissions/history
+  - agent/contracts/list
+  - agent/customers/leads
+  - agent/dashboard/overview
+  - agent/marketing/tools
+  - auth/forgot-password
+  - auth/login
+  - auth/registration
+  - customer/billing/invoices
+  - customer/billing/wallet-methods
+  - customer/community/marketplace-guide
+  - customer/community/news
+  - customer/dashboard/overview
+  - customer/home/contract-details
+  - customer/home/contracts-guide
+  - customer/home/members
+  - customer/home/vehicles
+  - customer/profile/wallet
+  - customer/support/complaints
+  - customer/support/services
+  - customer/support/tickets
+  - host/finance/invoices
+  - host/finance/meter-readings
+  - host/finance/payouts
+  - host/finance/stats-guide
+  - host/overview/assets
+  - host/overview/buildings
+  - host/overview/contracts
+  - host/overview/finance
+  - host/overview/tasks
+  - host/real-estate/assets
+  - host/real-estate/manage-buildings
+  - host/real-estate/manage-rooms
+  - host/real-estate/manage-services
+  - host/real-estate/rooms
+  - host/real-estate/services
+  - host/reports/performance
+  - host/residents/contracts
+  - host/residents/kyc
+  - host/residents/points
+  - host/service-desk/tasks
+  - host/settings/profile
+  - intro
+  - public/search-360
+  - public/search-guide
+  - tools/chat
+  - tools/notifications
+  
+      at Object.checkSidebarsDocIds (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\plugin-content-docs\lib\sidebars\utils.js:245:19)
+      at doLoadVersion (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\plugin-content-docs\lib\versions\loadVersion.js:102:19)
+      at async loadVersion (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\plugin-content-docs\lib\versions\loadVersion.js:119:16)
+      at async Promise.all (index 0)
+      at async Object.loadContent (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\plugin-content-docs\lib\index.js:152:33)
+      at async e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\server\plugins\plugins.js:40:23
+      at async Promise.all (index 1)
+      at async e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\server\plugins\plugins.js:146:25
+      at async loadSite (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\server\site.js:155:45)
+      at async buildLocale (e:\Nha_Cong\prj\nhacong-final\documentation\node_modules\@docusaurus\core\lib\commands\build\buildLocale.js:33:18)
+}
+[INFO] Docusaurus version: 3.9.2
+Node version: v22.21.1
