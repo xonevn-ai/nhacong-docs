@@ -18,12 +18,12 @@ const config: Config = {
   url: 'https://xonevn-ai.github.io', // Your GitHub Pages URL
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/nhacong-final/', // Your repository name
+  baseUrl: '/nhacong-docs/', // Your repository name
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'xonevn-ai', // Your GitHub org/user name.
-  projectName: 'nhacong-final', // Your repo name.
+  projectName: 'nhacong-docs', // Your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
