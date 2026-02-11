@@ -45,8 +45,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/xonevn-ai/user-guide/tree/main/',
+          // editUrl:
+          //   'https://github.com/xonevn-ai/nhacong-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -56,8 +56,8 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/xonevn-ai/user-guide/tree/main/',
+          // editUrl:
+            // 'https://github.com/xonevn-ai/nhacong-docs/tree/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -82,6 +82,7 @@ const config: Config = {
         alt: 'NET Partners Logo',
         src: 'img/logo.svg',
       },
+      hideOnScroll: true,
       items: [
         {
           type: 'docSidebar',
@@ -96,6 +97,12 @@ const config: Config = {
           position: 'right',
         },
       ],
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      },
     },
     footer: {
       style: 'dark',
